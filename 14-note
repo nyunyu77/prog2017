@@ -1,0 +1,70 @@
+import turtle
+t = turtle.Turtle()
+
+t.home()
+t.clear()
+
+t.forward(100)
+t.left(90)
+t.forward(100)
+
+def ract (x,y,a):
+   t.up()
+   t.home()
+   t.forward(x)
+   t.left(90)
+   t.forward(y)
+   t.down()
+   for i in range(4):
+      t.forward(a)
+      t,left(-90)
+#空行
+
+t,clear（）
+rect(10,20,100)
+
+def rect(x, y, a):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.down()
+  for i in range(4):
+    t.forward(a)
+    t.left(-90)
+#空行
+
+t.clear()
+rect(10, 10, 100)
+rect(10, -110, 100)
+rect(-110, 10, 100)
+rect(-110, -110, 100)
+
+class Dice:
+face_num = 6 '面の数
+def shoot(self):
+return random.randint(1, self.face_num)
+#空行
+
+import random
+aDice = Dice()　'クラス元にプロジェクト作成
+aDice.shoot()　'オブジェクト使用
+
+class Dice:
+def __init__(self, val):
+self.face_num = val
+def shoot(self):
+return random.randint(1, self.face_num)
+
+aDice = Dice(12) 'クラス元にプロジェクト作成
+aDice.shoot() 'オブジェクトを使用
+
+171 クラス
+172 セルフ
+173 __init__
+
+178 ない
+179 パイソン　打つ
+180 2**10
+181 （インタラクティブシェル）CUI、GUI
